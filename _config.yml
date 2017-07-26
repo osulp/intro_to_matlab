@@ -33,7 +33,7 @@ template_repo: "https://github.com/swcarpentry/styles"
 example_repo: "https://github.com/swcarpentry/lesson-example"
 example_site: "https://swcarpentry.github.com/lesson-example"
 workshop_repo: "https://github.com/clarallebot/2017-08-02_OSULP_intro_to_git"
-workshop_site: "http://clarallebot.github.io/2017-08-02-OSULP_intro_to_git"
+workshop_site: "https://clarallebot.github.io/2017-08-02_OSULP_intro_to_git"
 training_site: "https://swcarpentry.github.io/instructor-training"
 swc_installer: "https://github.com/swcarpentry/windows-installer/releases/download/v0.3/SWCarpentryInstaller.exe"
 
