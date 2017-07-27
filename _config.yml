@@ -2,8 +2,8 @@
 # Values for this workshop.
 #------------------------------------------------------------
 
-# Which carpentry is this ("swc", "dc", or "lc")?
-carpentry: null
+# Which carpentry is this ("swc", "dc", "lc" or "osu")?
+carpentry: "osu"
 
 # Overall title for pages.
 title: "Introduction to git"
