@@ -1,7 +1,7 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
 root: .               # DON'T CHANGE THIS EITHER.  (THANK YOU.)
-carpentry: "pff"    # what kind of Carpentry (must be either "lc" or "dc" or "swc" or "osu")
+carpentry: "osu"    # what kind of Carpentry (must be either "lc" or "dc" or "swc" or "osu")
 venue: "Oregon State University"        # brief name of host site without address (e.g., "Euphoric State University")
 address: "121 The Valley Library Corvallis OR 97331–4501"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
@@ -53,7 +53,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   {% include dc/intro.html %}
 {% elsif page.carpentry == "lc" %}
   {% include lc/intro.html %}
-{% elsif page.carpentry == "pff" %}
+{% elsif page.carpentry == "osu" %}
   <p> This is an OSU workshop </p>	
 {% endif %}
 
@@ -103,7 +103,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   {% include dc/who.html %}
 {% elsif page.carpentry == "lc" %}
   {% include lc/who.html %}
-{% elsif page.carpentry == "pff" %}
+{% elsif page.carpentry == "osu" %}
   {% include osu/who.html %}
 {% endif %}
 
@@ -225,7 +225,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 <p><a href="{{ site.dc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
 {% elsif page.carpentry == "lc" %}
 <p>Ask your instructor about pre- and post-workshop Survey details.</p>
-{% elsif page.carpentry == "pff: %}
+{% elsif page.carpentry == "osu: %}
 	<p>Please be sure to complete this survey after the workshop. </p>
 	<p><a href="https://osuvalleylibrary.az1.qualtrics.com/jfe/form/SV_72F5vNAMOC96O3y">Post-workshop Survey</a>.</p>
 {% endif %}
@@ -237,7 +237,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   {% include dc/schedule.html %}
 {% elsif page.carpentry == "lc" %}
   {% include lc/schedule.html %}
-{% elsif page.carpentry == "pff" %}
+{% elsif page.carpentry == "osu" %}
   {% include osu/schedule.html %}
 {% endif %}
 
@@ -284,8 +284,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   {% include dc/syllabus.html %}
 {% elsif page.carpentry == "lc" %}
   {% include lc/syllabys.html %}
-<!--{% elsif page.carpentry == "osu" %}
-  {% include osu/syllabys.html %}-->
+{% elsif page.carpentry == "osu" %}
+  {% include osu/syllabus.html %}
 {% endif %}
 
 <hr/>
