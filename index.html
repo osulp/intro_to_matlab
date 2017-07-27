@@ -47,16 +47,6 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </iframe>
 {% endif %}
 
-{% if page.carpentry == "swc" %}
-  {% include sc/intro.html %}
-{% elsif page.carpentry == "dc" %}
-  {% include dc/intro.html %}
-{% elsif page.carpentry == "lc" %}
-  {% include lc/intro.html %}
-{% elsif page.carpentry == "osu" %}
-  <p> This is an OSU workshop </p>	
-{% endif %}
-
 <h4>This workshop is an introduction to version control systems with Git. Version control systems 
 	are tools that keep track of the changes made on a document, and help version and merge files. 
 	They allow the user to decide which changes make up the next version, and keep useful data about them. 
@@ -82,7 +72,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   {% include dc/intro.html %}
 {% elsif page.carpentry == "lc" %}
   {% include lc/intro.html %}
-{% elsif page.carpentry == "pff" %}
+{% elsif page.carpentry == "osu" %}
   {% include osu/intro.html %}	
 {% endif %}
 
