@@ -77,6 +77,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   {% include dc/intro.html %}
 {% elsif page.carpentry == "lc" %}
   {% include lc/intro.html %}
+{% elsif page.carpentry == "osu" %}
+  {% include osu/intro.html %}	
 {% endif %}
 
 <!--
@@ -91,6 +93,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   {% include dc/who.html %}
 {% elsif page.carpentry == "lc" %}
   {% include lc/who.html %}
+{% elsif page.carpentry == "osu" %}
+  {% include osu/who.html %}
 {% endif %}
 
 <!--
@@ -270,6 +274,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   {% include dc/syllabus.html %}
 {% elsif page.carpentry == "lc" %}
   {% include lc/syllabys.html %}
+{% elsif page.carpentry == "osu" %}
+  {% include osu/syllabys.html %}
 {% endif %}
 
 <hr/>
@@ -296,13 +302,15 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   Data Carpentry
   {% elsif page.carpentry == "lc" %}
   Library Carpentry
+  {% elsif page.carpentry == "osu" %}
+  OSU Library
   {% endif %}
   workshop,
   you will need access to the software described below.
   In addition, you will need an up-to-date web browser.
 </p>
 <p>
-  We maintain a list of common issues that occur during installation as a reference for instructors
+  <a href = "https://software-carpentry.org/">Software Carpentry</a> maintains a list of common issues that occur during installation as a reference for instructors
   that may be useful on the
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
