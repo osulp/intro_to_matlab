@@ -6,7 +6,7 @@
 carpentry: "osu"
 
 # Overall title for pages.
-title: "Introduction to git"
+title: "Introduction to Matlab"
 
 # Contact email address.
 email: clara.llebot@oregonstate.edu
@@ -20,7 +20,7 @@ kind: "workshop"
 
 # Magic to make URLs resolve both locally and on GitHub.
 # See https://help.github.com/articles/repository-metadata-on-github-pages/.
-repository: clarallebot/2017-08-02_OSULP_intro_to_git
+repository: clarallebot/2017-08-02_OSULP_intro_to_Matlab
 
 # Sites.
 amy_site: "https://amy.software-carpentry.org/workshops"
@@ -32,8 +32,8 @@ swc_pages: "https://swcarpentry.github.io"
 template_repo: "https://github.com/swcarpentry/styles"
 example_repo: "https://github.com/swcarpentry/lesson-example"
 example_site: "https://swcarpentry.github.com/lesson-example"
-workshop_repo: "https://github.com/clarallebot/2017-08-02_OSULP_intro_to_git"
-workshop_site: "https://clarallebot.github.io/2017-08-02_OSULP_intro_to_git"
+workshop_repo: "https://github.com/osulp/intro_to_matlab/"
+workshop_site: "https://osulp.github.io/intro_to_matlab/"
 training_site: "https://swcarpentry.github.io/instructor-training"
 swc_installer: "https://github.com/swcarpentry/windows-installer/releases/download/v0.3/SWCarpentryInstaller.exe"
 
