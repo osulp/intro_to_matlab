@@ -1,4 +1,4 @@
-This repository is a generic template for Introduction to Git workshops offered at the Oregon State University Library. 
+This repository is a generic template for Introduction to Matlab workshops offered at the Oregon State University Library. 
 
 It has been created using the [Software Carpentry][swc-site] and [Data Carpentry][dc-site]'s
 template for creating websites for workshops.
